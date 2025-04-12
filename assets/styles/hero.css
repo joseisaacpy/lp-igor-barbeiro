@@ -22,6 +22,7 @@
   width: 100%;
   gap: 1rem;
   position: relative;
+  text-transform: uppercase;
 }
 
 .hero button {
