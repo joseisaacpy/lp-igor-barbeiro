@@ -4,8 +4,8 @@
     bottom: 1%;
   }
   100% {
-    bottom: 10%;
     opacity: 1;
+    bottom: 5%;
   }
 }
 .hero {
@@ -42,5 +42,5 @@
   content: url(../images/tesoura.svg);
   width: 30px;
   transform: rotate(90deg);
-  animation: mudarNome 2s ease-in-out infinite alternate;
+  animation: mudarNome 1s ease-in-out infinite alternate;
 }
