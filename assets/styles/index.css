@@ -1,0 +1,18 @@
+@import url("./global.css");
+@import url("./header.css");
+@import url("./hero.css");
+@import url("./about.css");
+@import url("./produts.css");
+@import url("./services.css");
+@import url("./footer.css");
+
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header header"
+    "hero hero hero hero"
+    "about about about about"
+    "products products products products"
+    "services services services services"
+    "footer footer footer footer";
+}

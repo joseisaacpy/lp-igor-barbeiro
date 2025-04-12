@@ -1,0 +1,46 @@
+@keyframes mudarNome {
+  0% {
+    opacity: 0.5;
+    bottom: 1%;
+  }
+  100% {
+    bottom: 10%;
+    opacity: 1;
+  }
+}
+.hero {
+  grid-area: hero;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+  background: url(../images/hero-image.jpg) no-repeat center center/cover;
+  height: 90dvh;
+  width: 100%;
+  gap: 1rem;
+  position: relative;
+}
+
+.hero button {
+  background-color: var(--dark-color);
+  color: var(--ligth-color);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hero::before {
+  position: absolute;
+  content: url(../images/tesoura.svg);
+  width: 30px;
+  transform: rotate(90deg);
+  animation: mudarNome 2s ease-in-out infinite alternate;
+}
