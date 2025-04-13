@@ -24,8 +24,12 @@
   position: relative;
   text-transform: uppercase;
 }
+.hero a {
+  padding: 1rem 2rem;
+}
 
 .hero button {
+  padding: 1rem 0.5rem;
   background-color: var(--dark-color);
   color: var(--ligth-color);
   border-radius: 5px;

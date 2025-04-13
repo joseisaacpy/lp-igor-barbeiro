@@ -1,3 +1,42 @@
 .footer {
   grid-area: footer;
+  background-color: var(--dark-color);
+  color: var(--ligth-color);
+  text-align: center;
+}
+
+.footer h3 {
+  color: #c8a96a;
+}
+
+.footer-social a {
+  display: inline-block;
+  color: aquamarine;
+}
+
+.footer-social a {
+  margin: 0.5rem;
+  color: var(--ligth-color);
+  font-size: 1.5rem;
+  transition: all 0.3s ease, color 0.3s ease;
+}
+
+.footer-social a:hover {
+  transform: scale(1.2);
+  color: #c8a96a; /* Dourado estiloso */
+}
+
+.footer-bottom {
+  border-top: 1px solid #2c2c2c;
+  padding: 1rem;
+  color: var(--ligth-color);
+}
+
+.footer-bottom a {
+  display: inline;
+}
+
+span.creditos {
+  font-weight: 600;
+  color: #c8a96a;
 }

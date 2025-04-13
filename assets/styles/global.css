@@ -34,10 +34,7 @@ body {
 /* a */
 a {
   font-size: 1.2rem;
-  display: block;
   color: inherit;
-  padding: 0.5rem;
-  /* color: var(--dark-color); */
   text-decoration: none;
 }
 
