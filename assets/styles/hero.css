@@ -1,4 +1,5 @@
-@keyframes mudarNome {
+/* animação da tesoura */
+@keyframes sobeDesce {
   0% {
     opacity: 0.5;
     bottom: 1%;
@@ -8,6 +9,18 @@
     bottom: 5%;
   }
 }
+/* animação de aparicao suave */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px); /* Começa um pouco abaixo */
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0); /* Termina na posição original */
+  }
+}
+
 .hero {
   grid-area: hero;
 
@@ -23,6 +36,7 @@
   gap: 1rem;
   position: relative;
   text-transform: uppercase;
+  animation: fadeIn 2s ease-in-out;
 }
 .hero a {
   padding: 1rem 2rem;
@@ -46,5 +60,5 @@
   content: url(../images/tesoura.svg);
   width: 30px;
   transform: rotate(90deg);
-  animation: mudarNome 1s ease-in-out infinite alternate;
+  animation: sobeDesce 1s ease-in-out infinite alternate;
 }
