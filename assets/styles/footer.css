@@ -6,7 +6,7 @@
 }
 
 .footer h3 {
-  color: #c8a96a;
+  color: var(--gold-color);
 }
 
 .footer-social a {
@@ -23,7 +23,7 @@
 
 .footer-social a:hover {
   transform: scale(1.2);
-  color: #c8a96a; /* Dourado estiloso */
+  color: var(--gold-color);
 }
 
 .footer-bottom {
@@ -38,5 +38,5 @@
 
 span.creditos {
   font-weight: 600;
-  color: #c8a96a;
+  color: var(--gold-color);
 }

@@ -5,9 +5,10 @@
 :root {
   --ligth-color: #fff;
   --dark-color: #000;
-  --gold-color: #c8a96a;
-  --cinza-color: #b23a48;
-  --cinza-escuro-color: #2c2c2c;
+  /* --gold-color: #eeba52; */
+  --gold-color: #e6b422;
+  --red-color: #b23a48;
+  --dark-gray-color: #2c2c2c;
 }
 
 /* reset */
