@@ -2,6 +2,7 @@
 @import url("./header.css");
 @import url("./hero.css");
 @import url("./about.css");
+@import url("./faixa.css");
 @import url("./services.css");
 @import url("./footer.css");
 
@@ -11,6 +12,7 @@ body {
     "header header header header"
     "hero hero hero hero"
     "about about about about"
+    "faixa faixa faixa faixa"
     "services services services services"
     "footer footer footer footer";
 }

@@ -1,0 +1,39 @@
+/* animação de rotaçao */
+@keyframes loopRotate {
+  0% {
+    transform: rotate(0deg); /* Começa na posição original */
+  }
+  100% {
+    transform: rotate(360deg); /* Termina na posição original */
+  }
+}
+
+/* secao de faixa */
+.faixa {
+  grid-area: faixa;
+  width: 100%;
+  min-height: 60px;
+  padding: 1rem 0;
+  background: var(--dark-color) no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* span com emogi */
+.faixa span {
+  font-size: 3rem;
+  animation: loopRotate 5s linear infinite; /* Animação de rotação contínua */
+}
+
+@media (max-width: 768px) {
+  /* faixa fica com melhor espaçamento */
+  .faixa {
+    justify-content: space-evenly;
+  }
+  /* vai esconder dois span da faixa */
+  .faixa span:nth-child(1),
+  .faixa span:nth-child(2) {
+    display: none;
+  }
+}
