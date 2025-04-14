@@ -1,11 +1,12 @@
 .footer {
+  padding: 1rem 0;
   grid-area: footer;
   background-color: var(--dark-color);
   color: var(--ligth-color);
   text-align: center;
 }
 
-.footer h3 {
+.footer h4 {
   color: var(--gold-color);
 }
 
