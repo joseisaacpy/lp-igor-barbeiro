@@ -4,6 +4,7 @@
 @import url("./about.css");
 @import url("./faixa.css");
 @import url("./services.css");
+@import url("./galery.css");
 @import url("./footer.css");
 
 body {
@@ -14,5 +15,6 @@ body {
     "about about about about"
     "faixa faixa faixa faixa"
     "services services services services"
+    "galery galery galery galery"
     "footer footer footer footer";
 }

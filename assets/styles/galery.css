@@ -1,0 +1,31 @@
+.galery {
+  grid-area: galery;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.galery-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border-radius: 1rem;
+}
+
+.galery-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.galery-container img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
