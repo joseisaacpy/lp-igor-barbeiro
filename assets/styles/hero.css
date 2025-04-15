@@ -30,7 +30,8 @@
   flex-direction: column;
   text-align: center;
 
-  background: url(../images/hero-image.jpg) no-repeat center center/cover;
+  /* background: url(../images/hero-image.jpg) no-repeat center center/cover; */
+  background: url(../images/hero-igor-image-ia.png) no-repeat center top/cover;
   height: 90dvh;
   width: 100%;
   gap: 1rem;
