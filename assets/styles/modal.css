@@ -1,0 +1,56 @@
+#modal {
+  /* começa escondido */
+  display: none;
+  /* depois, adiciona o flex */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  /* box-shadow: 1px 1px 10px #00000075; */
+  height: auto;
+  width: 50%;
+}
+
+#container-modal {
+  border-radius: 1rem;
+  position: relative;
+  background-color: white; /* opcional, para destacar o modal */
+  padding: 0.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#modalImg {
+  border-radius: inherit;
+}
+
+.btnFecharModal {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0rem 0.5rem;
+  font-size: 1.5rem;
+  background-color: #000000;
+
+  position: absolute;
+  top: 2px;
+  right: 5px;
+
+  transition: all 0.3s ease-in-out;
+}
+.btnFecharModal:hover,
+.btnFecharModal:active {
+  transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+  #modal {
+    /* height: auto; */
+    width: 90%;
+  }
+}

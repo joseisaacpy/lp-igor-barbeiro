@@ -7,6 +7,7 @@
 @import url("./galery.css");
 @import url("./location.css");
 @import url("./footer.css");
+@import url("./modal.css");
 
 body {
   display: grid;
